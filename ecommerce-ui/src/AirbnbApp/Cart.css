@@ -1,0 +1,8 @@
+.cartClass{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:cadetblue;
+    padding: 25px;
+    font-size: 20px;
+}
