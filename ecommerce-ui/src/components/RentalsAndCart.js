@@ -3,7 +3,7 @@ import airbnbsRentals from './airbnbs.json';
 import './Cart.css'
 import Rental from './Rental'
 
-class Cart extends Component {
+class RentalsAndCart extends Component {
 
     constructor(props) {
         super(props);
@@ -78,4 +78,4 @@ class Cart extends Component {
 
 }
 
-export default Cart
+export default RentalsAndCart

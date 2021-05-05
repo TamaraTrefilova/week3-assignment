@@ -1,0 +1,70 @@
+
+.flex-container-child{
+    display: flex;
+    flex-direction: row; 
+    padding: 0;
+    margin: 0; 
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.image{
+   
+    justify-content:space-around;
+    align-items:space-between;
+    text-align: left;
+    padding: 0;
+    margin: 0; 
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 22px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title{
+    box-shadow: 1px 2px 22px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+h3 {
+    font-size: 1.05rem;
+    letter-spacing: 0.6px;
+}
+
+.rental-info{
+    justify-content:space-around;
+    align-items:space-between;
+    text-align: left;
+    padding: 0;
+    margin: 0; 
+    padding: 5px;
+    margin-top: 100px;
+    color: #204060;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    box-shadow: 1px 2px 22px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cart{
+   
+    align-items: flex-end;
+    margin-top: 100px; 
+    margin-left: 300px; 
+    text-align: left;
+}
+
+.hide{
+    display: none;
+}
+
+button {
+    background: #ecf2f9;
+    box-shadow: 0px 0px 0px transparent;
+    border: 2px solid;
+    text-shadow: 0px 0px 0px transparent;
+    border-width: thin medium thick;
+    box-shadow: 1px 2px 22px 8px #8bb0da;
+    border-radius: 10px;
+  }

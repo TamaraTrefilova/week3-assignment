@@ -1,6 +1,6 @@
 
 import './App.css';
-import Airbnb from './AirbnbApp/Airbnb';
+import Airbnb from './components/Airbnb';
 function App() {
   return (
     <div className="App">

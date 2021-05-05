@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Cart from './Cart'
+import RentalsAndCart from './RentalsAndCart'
 
 class Airbnb extends Component {
     render() {
@@ -8,7 +8,7 @@ class Airbnb extends Component {
         return (
 
             <div >
-                <div> <Cart /></div>
+                <div> <RentalsAndCart /></div>
 
             </div>
         )

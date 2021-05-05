@@ -1,0 +1,17 @@
+.cartClass{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:cadetblue;
+    padding: 25px;
+    font-size: 1.05rem;
+    letter-spacing: 0.6px;
+    box-shadow: 1px 2px 22px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: 0.6px;
+}
