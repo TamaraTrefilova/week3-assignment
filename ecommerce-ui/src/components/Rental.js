@@ -30,7 +30,7 @@ class Rental extends Component {
         onComplete: PropTypes.func.isRequired,
         items: PropTypes.number.isRequired,
         total: PropTypes.number.isRequired,
-        button: PropTypes.bool.isRequired,
+        button: PropTypes.object.isRequired,
         index: PropTypes.number.isRequired
     }
 
@@ -74,7 +74,8 @@ class Rental extends Component {
                     <div className='host'>
                         <h3>
                             Host Name: {host.name}
-                            <h4>{host.isSuperhost ? 'Super host!' : ''}</h4>
+                            <p>{host.isSuperhost ? 'Super host!' : ''}</p>
+                            
                         </h3>
 
                     </div>
